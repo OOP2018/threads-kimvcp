@@ -34,7 +34,7 @@ The threads use the counter to add and subtract values.
 
 How might this affect real applications?
 
-The total money in the Bank Account can be changed when another customer deposit or withdraw from it at the same time. For example, if the account has 100 Baht at the beginning. The customer deposit 100 Baht when the Banker withdraw the money 50 Baht, the total money should be 150 but because of unsynchronized, it makes the total money be 50 Baht (assuming withdraw is done after deposit). 
+- The total money in the Bank Account can be changed when another customer deposit or withdraw from it at the same time. For example, if the account has 100 Baht at the beginning. The customer deposit 100 Baht when the Banker withdraw the money 50 Baht, the total money should be 150 but because of unsynchronized, it makes the total money be 50 Baht (assuming withdraw is done after deposit). 
 
 ## 3. Counter with ReentrantLock
 
