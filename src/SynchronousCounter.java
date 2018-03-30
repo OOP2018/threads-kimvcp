@@ -1,4 +1,9 @@
-
+/**
+ * Lock the thread from interrupting the running thread and prevent the data race.
+ * 
+ * @author Vichaphol Thamsuthikul
+ *
+ */
 public class SynchronousCounter extends Counter {
 	@Override
 	public synchronized void add(int amount) {

@@ -1,6 +1,6 @@
 
 /**
- * AddTask adds number 1 ... limit to the counter, then exits.
+ * SubtractTask subtracts number 1 ... limit to the counter, then exits.
  */
 public class SubtractTask implements Runnable {
 	private Counter counter;

@@ -1,4 +1,5 @@
 /**
+ * The thread class using different type of counter to add and subtract the value.
  * 
  * @author Vichaphol Thamsuthikul
  *
